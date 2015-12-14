@@ -1,0 +1,73 @@
+body{font-family: "Roboto", sans-serif;
+ 	margin:0;
+ 	padding:0;
+ 	background-color: white;
+ 	margin-right: -20px;
+ 	border-bottom: 3px solid #B71C1C;
+}
+
+#presentation{background-color:#BDBDBD;
+	padding: 30px;
+	text-align: center;
+	margin-right: -20px;
+}
+
+img{width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	border: 5px solid #B71C1C;
+	margin: 20px 365px;
+}
+
+h1{text-align: center;
+	color:#B71C1C;
+	font-size: 35px;
+}
+
+#toto{width: 940px;
+	margin:auto;
+}
+
+.menu{display: inline-block;
+width:400px;
+float:right;
+vertical-align: baseline;
+}
+
+.menu li{list-style-type: none;
+	margin-right: -70px;
+	padding-top: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	float:right;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.menu ul li a{width:400px;
+	display:inline-block;
+	float:right;
+	background-color: white;
+	color:black;
+	text-decoration: none;
+}
+
+.menu li a:hover{ color:#B71C1C;
+}
+
+.part{display: inline-block;
+	float:left;
+	vertical-align: baseline;
+	width: 400px;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.part p{background-color: white;
+	display: inline-block;
+	text-align: justify;
+	vertical-align: baseline;
+}
+
+.hide{
+	display: none;
+}
