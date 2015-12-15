@@ -3,7 +3,7 @@ body{font-family: "Roboto", sans-serif;
  	padding:0;
  	background-color: white;
  	margin-right: -20px;
- 	border-bottom: 3px solid #B71C1C;
+ 	border-bottom: 3px solid #6D4C41;
 }
 
 #presentation{background-color:#BDBDBD;
@@ -15,16 +15,17 @@ body{font-family: "Roboto", sans-serif;
 img{width: 220px;
 	height: 220px;
 	border-radius: 50%;
-	border: 5px solid #B71C1C;
+	border: 5px solid #6D4C41;
 	margin: 20px 365px;
+	box-shadow: 3px 3px 5px #6D4C41;
 }
 
 h1{text-align: center;
-	color:#B71C1C;
+	color:#6D4C41;
 	font-size: 35px;
 }
 
-#toto{width: 940px;
+#container{width: 940px;
 	margin:auto;
 }
 
@@ -35,7 +36,7 @@ vertical-align: baseline;
 }
 
 .menu li{list-style-type: none;
-	margin-right: -70px;
+	margin-right: -100px;
 	padding-top: 40px;
 	font-size: 20px;
 	text-decoration: none;
@@ -52,7 +53,7 @@ vertical-align: baseline;
 	text-decoration: none;
 }
 
-.menu li a:hover{ color:#B71C1C;
+.menu li a:hover{ color:#6D4C41;
 }
 
 .part{display: inline-block;
@@ -68,6 +69,6 @@ vertical-align: baseline;
 	vertical-align: baseline;
 }
 
-.hide{
-	display: none;
+.part .paragraphe{
+display:none;
 }
