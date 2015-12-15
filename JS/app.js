@@ -8,3 +8,19 @@ $('.paragraphe').hide(); // tous les paragraphes sont cachés
 
 });
 });
+
+	$(function(){
+		$.getJSON('user-9.json', function(donnees) {
+			var tata = $('[elt]');
+			for (var index = 0; index < tata.length ; index ++){
+
+			var attribut = $(tata[index]).attr('elt'); // attribut peut etre le first name (clé)
+			var valeur = donnees [attribut];
+			$(tata[index]).html(valeur);
+			}
+ 		});
+
+	});
+    
+
+  
