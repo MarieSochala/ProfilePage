@@ -10,7 +10,7 @@ $('.paragraphe').hide(); // tous les paragraphes sont cachés
 });
 
 	$(function(){
-		$.getJSON('user-9.json', function(donnees) {
+		$.getJSON('http://vps227573.ovh.net/u-9.json', function(donnees) {
 			var tata = $('[elt]');
 			for (var index = 0; index < tata.length ; index ++){
 
