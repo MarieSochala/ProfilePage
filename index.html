@@ -6,14 +6,17 @@
 	<title>ProfilePage</title>
 	<script src="node_modules/zepto/zepto.min.js"></script>
 	<link rel="stylesheet" href="CSS/style.css"/>
+	<script src="node_modules/mustache/mustache.min.js"></script>
 	<script type="text/javascript" src="JS/app.js"></script>
+	
 </head>
 
 <body>
-
+	<script id="template" type="x-tmp1-mustache">
 	<div id="presentation">
 		<img src="singe-heureux.jpg" alt="Ma photo">
 		<h1><span elt="first_name"></span> <span elt="last_name"></span></h1>
+		<h3><span elt="occupation"></span></h3>
 	</div>
 
 	<div id="container">
@@ -36,6 +39,6 @@
 		</div>
 
 	</div>
-	
+	</script>
 </body>
 </html>

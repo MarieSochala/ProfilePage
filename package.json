@@ -38,7 +38,9 @@
   "bugs": {
     "url": "https://github.com/madrobby/zepto/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mustache": "^2.2.1"
+  },
   "description": "Minified Zepto via NPM. Simple as that",
   "devDependencies": {},
   "directories": {},
