@@ -30,7 +30,7 @@ $('.paragraphe').hide(); // tous les paragraphes sont cachés
 // 		    $ ('h3').html(Occupation);
 // 		});
 
- $.getJSON('http://vps227573.ovh.net/u-9.json', function(data){
+ $.getJSON('https://s.idsympa.com/u-9.json', function(data){
  	var template = $('#template').html();
  	var info = Mustache.to_html(template, data);
  	$('body').html(info);
