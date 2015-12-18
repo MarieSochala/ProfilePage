@@ -75,6 +75,33 @@ vertical-align: baseline;
 	vertical-align: baseline;
 }
 
-.part .paragraphe{
-display:none;
+.part .paragraphe{display:none;
+}
+
+#GrosseBoite{display:none;
+	background-color: rgba(0,0,0,.5);
+	z-index: 99999;
+	position: fixed;
+	width:100%;
+	height: 100%;
+	top: 0;
+	left:0;
+}
+
+#PetiteBoite{
+	background-color: white;
+	width: 400px;
+	height: 100px;
+	padding: 20px;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#PetiteBoite .close{
+	color:black;
+	margin-left: 390px;
+	text-decoration: none;
+	font-size:bold;
 }
