@@ -97,11 +97,20 @@ vertical-align: baseline;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	position: relative;
 }
 
 #PetiteBoite .close{
-	color:black;
-	margin-left: 390px;
+	position: absolute;
+	background-color: #6D4C41;
+	border:none;
+	top:5px;
+	right:5px;
 	text-decoration: none;
-	font-size:bold;
+	text-transform:lowercase;
+	border-radius: 50px;
+	color:white;
+	width:20px;
+	height:20px;
+	
 }
